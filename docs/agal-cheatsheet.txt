@@ -1,0 +1,59 @@
+#################################################################################
+
+---REGISTERS---
+
+Vertex attribute            va0..va7
+Vertex constants            vc0..vc127
+Vertex temporary            vt0..vt7
+Output position             op
+
+Varied
+
+Fragment constants          fc0..fc27
+Fragment temporary          ft0..ft7
+Fragment texture samples    fs0..fs7
+Output colour               oc
+
+
+---BUFFERS---
+
+Resource                Number allowed      Total Memory
+Vertex buffers          4096                256MB
+Index buffers           4096                128MB
+Programs                4096                16MB
+Textures                4096                128MB
+Cube textures           4096                256MB
+
+
+---TEXTURE---
+
+Texture dimension       2d,3d,cube
+MipMapping              nomip, mipnone, mipnearest, miplinear
+Texture filtering       nearest, linear
+Texture repeat          repeat, wrap, clamp
+
+example: <2d,linear,nomip>
+
+
+#################################################################################
+
+// COLORIZE SIMPLE TRIANGLE
+
+-- vertex
+m44 op, va0, vc0    // apply the matrix transform to va0 (vertex position), putting result in op (the position output)
+mov v0, va1         // move va1 (vertex colour) to v0 where the fragment shader will be able to access it
+
+-- fragment
+mov oc, v0          // output vertex colour in v0
+
+
+// APPLY TEXTURE TO QUAD (PAIR OF TRIANGLES)
+
+-- vertex
+m44 op, va0, vc0    // 4x4 matrix multiply to get camera angle
+mov v0, va0         // tell fragment shader about XYZ
+mov v1, va1         // tell fragment shader about UV      
+
+-- fragment
+tex ft0, v1, fs0 <2d,repeat,miplinear>              // grab the texture color from texture fs0 using the UV coordinates stored in v1
+mov oc, ft0                                         // move this value to the output color

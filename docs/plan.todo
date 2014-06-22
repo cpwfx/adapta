@@ -1,0 +1,92 @@
+info: https://github.com/aziz/PlainTasks
+
+Diffusal lighting / Mipmapping / Culling:
+   ✔ http://gamedevelopment.tutsplus.com/tutorials/lets-build-a-3d-graphics-engine-dynamic-lighting--gamedev-9143 @done (14-06-18 13:20)
+   ✔ http://blog.norbz.net/2012/03/brace-yourself-shaders-are-coming/ @done (14-06-18 13:24)
+   ✔ http://math.stackexchange.com/questions/599803/calculating-normals-for-a-polygon-mesh-3d-computer-graphics @done (14-06-18 15:37)
+   ✔ http://blog.norbz.net/2012/04/stage3d-agal-from-scratch-part-vii-let-there-be-light/ @done (14-06-18 17:03)
+   ✔ http://stackoverflow.com/questions/19643008/stage3d-agal-diffuse-light-shader-dynamic-object-questions @done (14-06-18 17:22)
+   ✔ http://www.rastertek.com/dx10tut06.html @done (14-06-18 17:03)
+   ✔ http://blog.norbz.net/2012/06/stage3d-agal-from-scratch-part-viii-texture-please/ @done (14-06-18 18:01)
+   ☐ http://www.adobe.com/devnet/flashplayer/articles/mipmapping.html
+   ☐ Adobe Flash 11 Stage3D Game Programming - chapter 05
+   ☐ Adobe Flash 11 Stage3D Game Programming - chapter 06
+   ☐ http://jacksondunstan.com/articles/1730
+   ☐ http://jacksondunstan.com/articles/1854
+   ☐ http://jacksondunstan.com/articles/1738
+   ☐ http://www.slideshare.net/danielfreeman779/stage3d-and-agal
+   ☐ https://code.google.com/p/stage3dexamples/
+   ☐ http://mousman.com/agal/?p=480 -- SHOULD GO TO CAMERAS
+primitives:
+   http://jacksondunstan.com/articles/1904
+particles:
+   http://www.saltgames.com/2011/accelerated-particle-effects/
+   http://www.saltgames.com/2012/particles-redux/
+   Adobe Flash 11 Stage3D Game Programming - chapter 07
+   Adobe Flash 11 Stage3D Game Programming - chapter 08
+   http://gamedevelopment.tutsplus.com/tutorials/make-a-neon-vector-shooter-in-xna-particle-effects--gamedev-10111
+   http://pierrechamberlain.ca/blog/2012/01/as3-level-4-setting-2d-particle-system-agal-stage3d/
+post-processing + filters:
+    http://www.saltgames.com/2012/making-median-filter-stage3d/
+   http://dallinwellington.com/rendering/fun-with-pixel-shaders/
+   http://jacksondunstan.com/articles/1904
+   http://jacksondunstan.com/articles/1998
+   http://gamedevelopment.tutsplus.com/tutorials/make-a-neon-vector-shooter-in-xna-bloom-and-black-holes--gamedev-9877
+   http://gamedevelopment.tutsplus.com/tutorials/make-a-neon-vector-shooter-in-xna-the-warping-grid--gamedev-9904
+   http://gamedevelopment.tutsplus.com/tutorials/how-to-dynamically-slice-a-convex-shape--gamedev-14479
+   http://pierrechamberlain.ca/blog/2012/03/preview-rtt-trail-effect-stage3d-agal/
+   http://pierrechamberlain.ca/blog/2012/03/as3-level-4-ping-pong-technique-rtt-stage3d-agal/
+   http://pierrechamberlain.ca/blog/2012/05/making-scrollable-tiles-uv-offsets-stage3d-agal/
+   http://pierrechamberlain.ca/blog/2013/01/crt-monitor-effect-live-demo/
+   http://pierrechamberlain.ca/blog/2013/01/crt-monitor-effect-2-0-laboratorygames-television-game/
+   http://pierrechamberlain.ca/blog/2014/01/versatile-engine-stage3d/
+   http://videometry.blogspot.com.au/2014/03/further-adventures-in-agal.html
+viewport/clipping:
+   http://jacksondunstan.com/articles/1897
+genome2d/2d/engine building/plugins/libraries/tools:
+   https://www.youtube.com/watch?v=qXMnQH0iAgE
+   http://jacksondunstan.com/articles/1706
+   http://jacksondunstan.com/articles/1919
+   Adobe Flash 11 Stage3D Game Programming - chapter 09
+   Adobe Flash 11 Stage3D Game Programming - chapter 10
+   http://pierrechamberlain.ca/blog/2012/01/as3-level-4-yet-another-agal-helper-library-asgl-part-5/
+advanced/expert techniques:
+   http://www.adobe.com/devnet/flashruntimes/articles/atf-users-guide.html
+   http://gonchar.me/blog/goncharposts/2287
+   http://mousman.com/agal/?p=621
+shaders:
+   http://northwaygames.com/a-pixelfragment-shader-example-in-flash/
+   http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-dynamic-2d-water-effects--gamedev-236
+   http://gamedevelopment.tutsplus.com/tutorials/create-a-glowing-flowing-lava-river-using-bezier-curves-and-shaders--gamedev-919
+   http://gamedevelopment.tutsplus.com/tutorials/how-to-generate-shockingly-good-2d-lightning-effects--gamedev-2681
+gpu:
+   http://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/
+   xxx
+visual effects:
+   http://en.wikibooks.org/wiki/Cg_Programming/Unity
+   http://http.developer.nvidia.com/GPUGems/gpugems_part01.html
+   http://http.developer.nvidia.com/GPUGems2/gpugems2_part01.html
+   http://http.developer.nvidia.com/GPUGems3/gpugems3_part01.html
+techniques:
+   animating skin of human figure (skeleton) when it is moving
+   objects morphing
+   soft cloth
+   http://blog.peteshand.net/fluid-solver-workers-agal-awesomeness/
+   http://shadertoy.com/
+theory:
+   http://www.songho.ca/opengl/gl_projectionmatrix.html
+   texture filtering
+   blend modes - Context3DBlendFactor http://forum.starling-framework.org/topic/new-feature-blendmodes/page/2
+math:
+   https://www.khanacademy.org/math/linear-algebra/matrix_transformations
+   http://www.amazon.com/Essential-Mathematics-Interactive-Applications-Second/dp/0123742978/
+   http://www.youtube.com/playlist?list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My
+   3D Math Primer for Graphics and Game Development, 2nd Edition
+   http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
+   http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-2/
+   http://blog.wolfire.com/2010/07/Linear-algebra-for-game-developers-part-3
+   http://blog.wolfire.com/2010/07/Linear-algebra-for-game-developers-part-4
+   ☐ http://www.amazon.com/Real-Time-Cameras-Mark-Haigh-Hutchinson/dp/0123116341
+      http://www.fastgraph.com/makegames/3drotation/
+issues:
+   Simple ArcBall camera
